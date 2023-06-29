@@ -1,4 +1,10 @@
 import requests
+import database
+
+
+#instantiate the database from here
+ENG = database.engine
+database.start_engine()
 
 def menu():
     print("[1] Current Weather")
